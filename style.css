@@ -25,6 +25,10 @@ input {
   margin: 10px 0;
   border-radius: 5px;
   font-size: 20px;
+  border: 1px solid #000;
+}
+input:focus-visible {
+  outline: none;
 }
 
 .buttons button {
